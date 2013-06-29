@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ########################################
+
+ # 
+ # April 2012 : Modified by PAF team
+ # http://equipe-flightgear.forumactif.com
+
+##########################################-->
+
+<PropertyList>
+
+  <path>contour_AI.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>  0 </min-m>
+    <max-m> 45 </max-m>
+  </animation>
+  
+  <animation>
+      <object-name>contour_AI</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>contour_AI</object-name>
+    <condition>
+      <not><property>/sim/rendering/rembrandt/enabled</property></not>
+    </condition>
+    <emission>
+      <red>   0.007 </red>
+      <green> 0.007 </green>
+      <blue>  0.007 </blue>
+      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+    </emission>
+  </animation> 
+
+</PropertyList>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>switch-flaps.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>  0 </min-m>
+    <max-m> 45 </max-m>
+  </animation>
+
+  <animation>
+    <object-name>Switch</object-name>
+    <object-name>support</object-name>
+    <object-name>lampon</object-name>
+    <object-name>lamp1on</object-name>
+    <object-name>lampoff</object-name>
+    <object-name>lamp1off</object-name>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Switch</object-name>
+    <property>surface-positions/flap-pos-norm</property>
+    <factor>-10</factor>
+    <axis>
+      <x>  0 </x>
+      <y>  1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>

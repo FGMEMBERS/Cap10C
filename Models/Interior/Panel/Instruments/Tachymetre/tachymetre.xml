@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>tachymetre.ac</path>
+
+  <animation>
+    <object-name>Fond</object-name>
+    <object-name>contour</object-name>
+    <object-name>aiguille</object-name>
+  </animation>
+
+  <animation>
+    <type>range</type>
+    <min-m>  0 </min-m>
+    <max-m> 45 </max-m>
+  </animation>
+  
+  <animation>
+    <type>material</type>
+    <object-name>Fond</object-name>
+    <object-name>aiguille</object-name>
+    <condition>
+      <not><property>/sim/rendering/rembrandt/enabled</property></not>
+    </condition>
+    <emission>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>contour</object-name>
+    <condition>
+      <not><property>/sim/rendering/rembrandt/enabled</property></not>
+    </condition>
+    <emission>
+      <red>   0.007 </red>
+      <green> 0.007 </green>
+      <blue>  0.007 </blue>
+      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+    </emission>
+  </animation>
+
+  <animation>
+    <name>BackLightAnimation</name>
+    <type>light</type>
+    <light-type>spot</light-type>
+    <object-name>backlight</object-name>
+    <position>
+      <x> 0.02 </x>
+      <y> 0.00 </y>
+      <z>-0.05 </z>
+    </position>
+    <direction>
+      <x> -1.0 </x>
+      <y>  0.0 </y>
+      <z>  1.0 </z>
+    </direction>
+    <ambient>
+      <r>  0.0 </r>
+      <g>  0.0 </g>
+      <b>  0.0 </b>
+      <a>  1.0 </a>
+    </ambient>
+    <diffuse>
+      <r>  0.5 </r>
+      <g>  0.404 </g>
+      <b>  0.2 </b>
+      <a>  1.0 </a>
+    </diffuse>
+    <specular>
+      <r>  0.0 </r>
+      <g>  0.0 </g>
+      <b>  0.0 </b>
+      <a>  1.0 </a>
+    </specular>
+    <dim-factor>
+      <property>systems/electrical/outputs/instrument-lights</property>
+      <!-- optional begin -->
+      <factor>0.3</factor>
+      <offset>0</offset>
+      <min>0</min>
+      <max>1</max>
+      <!-- optional end -->
+    </dim-factor>
+    <attenuation>
+      <c>  0.2 </c>
+      <l>  0.2 </l>
+      <q>  0.4 </q>
+    </attenuation>
+    <exponent>  8.0 </exponent>
+    <cutoff>   48.0   </cutoff>
+    <near-m>    0.0   </near-m>
+    <far-m>     0.09 </far-m>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>BackLightAnimation</object-name>
+    <condition>
+      <and>
+        <property>controls/electric/battery-switch</property>
+        <property>sim/rendering/rembrandt/enabled</property>
+      </and>
+    </condition>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>aiguille</object-name>
+    <property>engines/engine[0]/rpm</property>
+    <interpolation>
+      <entry><ind>    0 </ind><dep> -155.458 </dep></entry>
+      <entry><ind>  300 </ind><dep> -130.912 </dep></entry>
+      <entry><ind>  500 </ind><dep> -114.548 </dep></entry>
+      <entry><ind>  800 </ind><dep>  -90.000 </dep></entry> 
+      <entry><ind> 1400 </ind><dep>  -40.910 </dep></entry>
+      <entry><ind> 1900 </ind><dep>    0.000 </dep></entry>
+      <entry><ind> 2400 </ind><dep>   40.910 </dep></entry>
+      <entry><ind> 3000 </ind><dep>   90.000 </dep></entry> 
+      <entry><ind> 3500 </ind><dep>  130.912 </dep></entry> 
+    </interpolation>    
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+  
+</PropertyList>
+
