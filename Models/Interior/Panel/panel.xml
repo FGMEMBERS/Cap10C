@@ -324,11 +324,11 @@
     </offsets>
   </model>
 
-  <!-- KT 76A -->
+  <!-- GTX320A -->
   <model>
-    <path>Aircraft/Cap10C/Models/Interior/Panel/Instruments/Avionic/KT76A.xml</path>
+    <path>Aircraft/Cap10C/Models/Interior/Panel/Instruments/Avionic/gtx320a.xml</path>
     <offsets>
-      <x-m> -0.294 </x-m>
+      <x-m> -0.289 </x-m>
       <y-m>  0.150 </y-m>
       <z-m>  0.189 </z-m>
     </offsets>
@@ -336,7 +336,7 @@
 
   <!-- KN 53 -->
   <model>
-    <path>Aircraft/Cap10C/Models/Interior/Panel/Instruments/Avionic/kn53.xml</path>
+    <path>Aircraft/Cap10C/Models/Interior/Panel/Instruments/Avionic/ky97a.xml</path>
     <offsets>
       <x-m> -0.293 </x-m>
       <y-m>  0.153 </y-m>

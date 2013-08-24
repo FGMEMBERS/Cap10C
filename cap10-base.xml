@@ -184,13 +184,16 @@
       <power-btn type="bool">0</power-btn>
       <volume type="double">0</volume>
     </comm>
-    <kt76a>
-      <digit n="0" type="int">7</digit>
-      <digit n="1" type="int">0</digit>
-      <digit n="2" type="int">0</digit>
-      <digit n="3" type="int">0</digit>
-      <mode type="int">0</mode>
-    </kt76a>
+    <transponder>
+      <id-code type="int">7000</id-code>
+      <inputs>
+        <digit n="0" type="int">0</digit>
+        <digit n="1" type="int">0</digit>
+        <digit n="2" type="int">0</digit>
+        <digit n="3" type="int">7</digit>
+        <knob-mode type="int">0</knob-mode>
+      </inputs>
+    </transponder>
     <chrono>
       <power-btn type="bool">0</power-btn>
     </chrono>

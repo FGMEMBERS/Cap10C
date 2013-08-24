@@ -311,6 +311,7 @@ var avionics_bus = func(bus_volts) {
     #load = 0.0;
 
     if(props.globals.getNode("/instrumentation/comm/serviceable").getBoolValue() and 
+       props.globals.getNode("/instrumentation/comm/power-btn").getBoolValue() and 
        props.globals.getNode("/sim/failure-manager/instrumentation/comm/serviceable").getBoolValue() and
        props.globals.getNode("/controls/switches/avionic-switch",1).getBoolValue())
     {
@@ -320,12 +321,20 @@ var avionics_bus = func(bus_volts) {
         OutPuts.getNode("comm",1).setValue(0.0);
     }
 
-#    if (props.globals.getNode("/instrumentation/kt76a/mode").getValue() > 0 and props.globals.getNode("/controls/switches/transponder").getBoolValue()){
-#        OutPuts.getNode("transponder",1).setValue(bus_volts);
-#        load += 0.00015;
-#    } else {
-#        OutPuts.getNode("transponder",1).setValue(0.0);
-#    }
+    if(props.globals.getNode("/controls/switches/avionic-switch",1).getBoolValue())
+    {
+        OutPuts.getNode("gps",1).setValue(bus_volts);
+        load += 0.00015;
+    } else {
+        OutPuts.getNode("gps",1).setValue(0.0);
+    }
+
+    if (props.globals.getNode("/controls/switches/avionic-switch").getBoolValue()){
+        OutPuts.getNode("transponder",1).setValue(bus_volts);
+        load += 0.00015;
+    } else {
+        OutPuts.getNode("transponder",1).setValue(0.0);
+    }
 
     if(props.globals.getNode("/instrumentation/nav/serviceable").getBoolValue() and
        props.globals.getNode("/controls/switches/avionic-switch",1).getBoolValue())

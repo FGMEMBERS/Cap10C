@@ -62,9 +62,10 @@
     <type>select</type>
     <object-name>face-on</object-name>
     <condition>
-      <and>
-        <property>controls/electric/battery-switch</property>
-      </and>
+      <greater-than>
+        <property>systems/electrical/outputs/gps[0]</property>
+        <value>8.0</value>
+      </greater-than>
     </condition>
     <emission>
       <red>   0.01 </red>
