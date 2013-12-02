@@ -412,7 +412,7 @@
   <text>
     <name>radioFreq</name>
     <type type="string">number-value</type>
-    <property type="string">instrumentation/comm[0]/frequencies/selected-mhz</property>
+    <property type="string">instrumentation/comm[0]/frequencies/selected-mhz-fmt</property>
     <format type="string">%3.2f</format>
     <!--<format type="string">%s</format>-->
     <draw-text type="bool">true</draw-text>
@@ -437,7 +437,7 @@
   <text>
     <name>radioFreq</name>
     <type type="string">number-value</type>
-    <property type="string">instrumentation/comm[0]/frequencies/standby-mhz</property>
+    <property type="string">instrumentation/comm[0]/frequencies/standby-mhz-fmt</property>
     <format type="string">%3.2f</format>
     <!--<format type="string">%s</format>-->
     <draw-text type="bool">true</draw-text>

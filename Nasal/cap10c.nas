@@ -144,6 +144,28 @@ var terrain_survol = func {
 }
 
 ##############################################
+#########       KY97A FORMAT       ###########
+##############################################
+
+var formatCommSelectedFreq = func{
+  var selectedFreq = int(getprop("instrumentation/comm[0]/frequencies/selected-mhz")*100);
+  setprop("instrumentation/comm[0]/frequencies/selected-mhz-fmt", selectedFreq/100);
+}
+
+var formatCommStandbyFreq = func{
+  var standbyFreq = int(getprop("instrumentation/comm[0]/frequencies/standby-mhz")*100);
+  setprop("instrumentation/comm[0]/frequencies/standby-mhz-fmt", standbyFreq/100);
+}
+
+setlistener("instrumentation/comm[0]/frequencies/selected-mhz", func(){
+  formatCommSelectedFreq();
+});
+
+setlistener("instrumentation/comm[0]/frequencies/standby-mhz", func(){
+  formatCommStandbyFreq();
+});
+
+##############################################
 ######### AUTOSTART / AUTOSHUTDOWN ###########
 ##############################################
 
@@ -302,6 +324,9 @@ setlistener("/sim/signals/fdm-initialized", func{
     props.globals.initNode("sim/rendering/rembrandt/enabled", 0, "BOOL");
     print("Rembrandt no available");
   }
+
+  formatCommSelectedFreq();
+  formatCommStandbyFreq();
 
 });
 
