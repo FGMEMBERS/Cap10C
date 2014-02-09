@@ -106,6 +106,9 @@ var set_levers = func(type,num,min,max){
 # Ground Detection
 ##########################################
 
+# Do terrain modelling ourselves.
+setprop("sim/fdm/surface/override-level", 1);
+
 var terrain_survol = func {
   var lat = getprop("/position/latitude-deg");
   var lon = getprop("/position/longitude-deg");
