@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>badin.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>  0 </min-m>
+    <max-m> 45 </max-m>
+  </animation>
+  
+ <!-- <animation>
+    <type>noshadow</type>
+    <object-name>vitre</object-name>
+  </animation>
+  
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Cap10C/Models/Effects/glass_shader.png</texture>
+    <object-name>vitre</object-name>
+  </animation>-->
+  
+  <animation>
+    <type>material</type>
+    <object-name>badin</object-name>
+    <object-name>aiguille</object-name>
+    <condition>
+     <not><property>/sim/rendering/rembrandt/enabled</property></not>
+    </condition>
+    <emission>
+     <red>   0.50 </red>
+     <green> 0.25 </green>
+     <blue>  0.25 </blue>
+    <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+    </emission>
+  </animation>
+
+  <animation>
+    <name>BackLightAnimation</name>
+    <type>light</type>
+    <light-type>spot</light-type>
+    <object-name>backlight</object-name>
+    <position>
+      <x> 0.02 </x>
+      <y> 0.00 </y>
+      <z>-0.05 </z>
+    </position>
+    <direction>
+      <x> -1.0 </x>
+      <y>  0.0 </y>
+      <z>  1.0 </z>
+    </direction>
+    <ambient>
+      <r>  0.0 </r>
+      <g>  0.0 </g>
+      <b>  0.0 </b>
+      <a>  1.0 </a>
+    </ambient>
+    <diffuse>
+      <r>  0.5 </r>
+      <g>  0.404 </g>
+      <b>  0.2 </b>
+      <a>  1.0 </a>
+    </diffuse>
+    <specular>
+      <r>  0.0 </r>
+      <g>  0.0 </g>
+      <b>  0.0 </b>
+      <a>  1.0 </a>
+    </specular>
+    <dim-factor>
+      <property>systems/electrical/outputs/instrument-lights</property>
+      <!-- optional begin -->
+      <factor>0.3</factor>
+      <offset>0</offset>
+      <min>0</min>
+      <max>1</max>
+      <!-- optional end -->
+    </dim-factor>
+    <attenuation>
+      <c>  0.2 </c>
+      <l>  0.2 </l>
+      <q>  0.4 </q>
+    </attenuation>
+    <exponent>  8.0 </exponent>
+    <cutoff>   48.0   </cutoff>
+    <near-m>    0.0   </near-m>
+    <far-m>     0.09 </far-m>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>BackLightAnimation</object-name>
+    <condition>
+      <and>
+        <property>controls/electric/battery-switch</property>
+        <property>sim/rendering/rembrandt/enabled</property>
+      </and>
+    </condition>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>aiguille</object-name>
+    <property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+    <interpolation>
+      <entry><ind>   0.00 </ind><dep>  -180 </dep></entry> <!--   0 km/h -->
+      <entry><ind>  27.00 </ind><dep>  -170 </dep></entry> <!--  50 km/h -->
+      <entry><ind>  54.00 </ind><dep>  -126 </dep></entry> <!-- 100 km/h -->
+      <entry><ind>  81.00 </ind><dep>  -72</dep></entry> <!-- 150 km/h -->
+      <entry><ind> 107.99 </ind><dep>  -21 </dep></entry> <!-- 200 km/h -->
+      <entry><ind> 135.00 </ind><dep>   28</dep></entry> <!-- 250 km/h -->
+      <entry><ind> 161.99 </ind><dep>   70 </dep></entry> <!-- 300 km/h -->
+      <entry><ind> 189.00 </ind><dep>   108 </dep></entry> <!-- 350 km/h -->
+      <entry><ind> 215.98 </ind><dep>   140 </dep></entry> <!-- 400 km/h -->
+      <entry><ind> 242.98 </ind><dep>   170 </dep></entry> <!-- 450 km/h -->
+    </interpolation>    
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+  
+</PropertyList>
+
