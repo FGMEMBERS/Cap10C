@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>switch-flaps.ac</path>
+
+  <animation>
+    <object-name>Switch</object-name>
+    <object-name>support</object-name>
+    <object-name>lampoff</object-name>
+    <object-name>lamp1off</object-name>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Switch</object-name>
+    <repeatable>false</repeatable>
+    <property>controls/flight/flaps-cmd-pos</property>
+    <factor> 45 </factor>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>Switch</object-name>
+    <object-name>support</object-name>
+    <condition>
+      <not><property>/sim/rendering/rembrandt/enabled</property></not>
+    </condition>
+    <emission>
+      <red>   0.01 </red>
+      <green> 0.01 </green>
+      <blue>  0.01 </blue>
+      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>Switch</object-name>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>controls.flapsDown(1)</script>
+      </binding>
+    </action>
+    <action>
+      <button>1</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>controls.flapsDown(-1)</script>
+      </binding>
+    </action>
+    <action>
+      <button>4</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>controls.flapsDown(1)</script>
+      </binding>
+    </action>
+    <action>
+      <button>3</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>controls.flapsDown(-1)</script>
+      </binding>
+    </action>
+  </animation> 
+
+  <animation>
+    <type>material</type>
+    <object-name>lampoff</object-name>
+    <condition>
+      <greater-than-equals>
+        <property>controls/flight/flaps</property>
+        <value>0.25</value>
+      </greater-than-equals>
+    </condition>
+    <emission>
+      <red>0.2</red>
+      <green>15</green>
+      <blue>0.0</blue>
+      <factor-prop>systems/electrical/volts</factor-prop>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>lamp1off</object-name>
+    <condition>
+      <greater-than-equals>
+        <property>controls/flight/flaps</property>
+        <value>1</value>
+      </greater-than-equals>
+    </condition>
+    <emission>
+      <red>0.2</red>
+      <green>4</green>
+      <blue>0.0</blue>
+      <factor-prop>systems/electrical/volts</factor-prop>
+    </emission>
+  </animation>
+
+</PropertyList>
+
