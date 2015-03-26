@@ -9,7 +9,7 @@ name "aiguille"
 loc 0 0 -0
 data 8
 aiguille
-texture "badin.dds"
+texture "badin.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 183
@@ -1478,7 +1478,7 @@ name "badin"
 loc 0 0 -0
 data 5
 badin
-texture "badin.dds"
+texture "badin.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 129

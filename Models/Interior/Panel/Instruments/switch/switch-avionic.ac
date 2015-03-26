@@ -7,7 +7,7 @@ OBJECT poly
 name "Switch"
 data 6
 Switch
-texture "switch.dds"
+texture "switch.png"
 texrep 1 1
 crease 30.000000
 numvert 642
@@ -4915,7 +4915,7 @@ OBJECT poly
 name "SwitchNut"
 data 9
 SwitchNut
-texture "switch.dds"
+texture "switch.png"
 texrep 1 1
 crease 30.000000
 numvert 381

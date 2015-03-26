@@ -30,7 +30,7 @@ Copyright (C) 2012  Christian Thiriot "PATTEN"  - http://equipe-flightgear.forum
     <model>
       <livery>
         <name type="string">Rouge-P-A-F</name>
-        <texture>Liveries/Rouge-PAF.dds</texture>
+        <texture>Liveries/Rouge-PAF.png</texture>
 
         <!--<diffuse>
           <red>   0.0 </red>

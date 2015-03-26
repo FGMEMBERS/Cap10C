@@ -339,7 +339,7 @@ name "FuselageInt"
 loc 0 0 -0
 data 11
 FuselageInt
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 772
@@ -7729,7 +7729,7 @@ name "aerateur"
 loc 0 0 -0
 data 8
 aerateur
-texture "aerator.dds"
+texture "aerator.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 2440
@@ -26308,7 +26308,7 @@ name "bielle_throttle"
 loc 0 0 -0
 data 15
 bielle_throttle
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 76
@@ -27139,7 +27139,7 @@ name "boulons"
 loc 0 0 -0
 data 7
 boulons
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 790
@@ -34800,7 +34800,7 @@ name "joint_verriere"
 loc 0 0 -0
 data 14
 joint_verriere
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 15
@@ -34882,7 +34882,7 @@ name "partie_centrale"
 loc 0 0 -0
 data 15
 partie_centrale
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 138
@@ -35886,7 +35886,7 @@ name "plaquebD"
 loc 0 0 -0
 data 8
 plaquebD
-texture "plaque-info-basD.dds"
+texture "plaque-info-basD.png"
 texrep 1.000000 1.000000
 crease 79.999998
 numvert 8
@@ -35947,7 +35947,7 @@ name "plaqueh"
 loc 0 0 -0
 data 7
 plaqueh
-texture "plaque.dds"
+texture "plaque.png"
 texrep 1.000000 1.000000
 crease 79.999998
 numvert 8
@@ -36008,7 +36008,7 @@ name "plaquehG"
 loc 0 0 -0
 data 8
 plaquehG
-texture "plaque.dds"
+texture "plaque.png"
 texrep 1.000000 1.000000
 crease 79.999998
 numvert 8
@@ -36069,7 +36069,7 @@ name "poignee-ext"
 loc 0 0 -0
 data 11
 poignee-ext
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 142
@@ -37212,7 +37212,7 @@ name "poignee-int"
 loc 0 0 -0
 data 11
 poignee-int
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 130
@@ -38263,7 +38263,7 @@ name "structure_1"
 loc 0 0 -0
 data 11
 structure_1
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 136
@@ -39361,7 +39361,7 @@ name "structure_0"
 loc 0 0 -0
 data 11
 structure_0
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 336
@@ -41892,7 +41892,7 @@ name "support_throttle"
 loc 0 0 -0
 data 16
 support_throttle
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 80
@@ -42620,7 +42620,7 @@ name "tapis"
 loc 0 0 -0
 data 5
 tapis
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 80
@@ -43131,7 +43131,7 @@ name "throttle"
 loc 0 0 -0
 data 8
 throttle
-texture "interior.dds"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 274

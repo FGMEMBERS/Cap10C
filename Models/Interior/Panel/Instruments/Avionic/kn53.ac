@@ -9,7 +9,7 @@ OBJECT poly
 name "KN53"
 data 4
 Mesh
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 45.000000
 numvert 16
@@ -119,7 +119,7 @@ OBJECT poly
 name "KN53.dec"
 data 8
 Mesh.001
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 27
@@ -319,7 +319,7 @@ OBJECT poly
 name "KN53.knob"
 data 8
 Mesh.005
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 48
@@ -601,7 +601,7 @@ OBJECT poly
 name "KN53.knob1"
 data 8
 Mesh.019
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 33
@@ -852,7 +852,7 @@ OBJECT poly
 name "KN53.labels"
 data 8
 Mesh.003
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 32
@@ -950,7 +950,7 @@ OBJECT poly
 name "KN53.swap"
 data 8
 Mesh.004
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 8
@@ -1003,7 +1003,7 @@ OBJECT poly
 name "KN53.vol"
 data 8
 Mesh.008
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 33
@@ -1254,7 +1254,7 @@ OBJECT poly
 name "freq.101"
 data 8
 Mesh.009
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -1275,7 +1275,7 @@ OBJECT poly
 name "freq.102"
 data 8
 Mesh.010
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -1296,7 +1296,7 @@ OBJECT poly
 name "freq.103"
 data 8
 Mesh.011
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -1317,7 +1317,7 @@ OBJECT poly
 name "freq.104"
 data 8
 Mesh.012
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -1338,7 +1338,7 @@ OBJECT poly
 name "freq.105"
 data 8
 Mesh.013
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -1359,7 +1359,7 @@ OBJECT poly
 name "stby.101"
 data 8
 Mesh.014
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -1380,7 +1380,7 @@ OBJECT poly
 name "stby.102"
 data 8
 Mesh.015
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -1401,7 +1401,7 @@ OBJECT poly
 name "stby.103"
 data 8
 Mesh.016
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -1422,7 +1422,7 @@ OBJECT poly
 name "stby.104"
 data 8
 Mesh.017
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -1443,7 +1443,7 @@ OBJECT poly
 name "stby.105"
 data 8
 Mesh.018
-texture "kn53.dds"
+texture "kn53.png"
 texrep 1 1
 crease 30.000000
 numvert 4

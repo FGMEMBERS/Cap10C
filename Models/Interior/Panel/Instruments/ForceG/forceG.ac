@@ -9,7 +9,7 @@ name "Fond"
 loc 0 0 -0
 data 4
 Fond
-texture "forceG.dds"
+texture "forceG.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 32
@@ -172,7 +172,7 @@ name "aiguille"
 loc 0 0 -0
 data 8
 aiguille
-texture "forceG.dds"
+texture "forceG.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 75

@@ -10,7 +10,7 @@ name "ALTbezel"
 loc 0 0 -0
 data 8
 ALTbezel
-texture "alt.dds"
+texture "alt.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 110
@@ -741,7 +741,7 @@ name "ALTface"
 loc 0 0 -0
 data 7
 ALTface
-texture "alt.dds"
+texture "alt.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 67
@@ -1245,7 +1245,7 @@ name "InhgKnob"
 loc 0 0 -0
 data 8
 InhgKnob
-texture "alt.dds"
+texture "alt.png"
 texrep 1.000000 1.000000
 crease 50.000000
 numvert 25
@@ -2120,7 +2120,7 @@ name "inhg"
 loc 0 0 -0
 data 4
 inhg
-texture "alt.dds"
+texture "alt.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 40
@@ -2311,7 +2311,7 @@ name "needle100"
 loc 0 0 -0
 data 9
 needle100
-texture "alt.dds"
+texture "alt.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 20
@@ -2434,7 +2434,7 @@ name "needle1000"
 loc 0 0 -0
 data 10
 needle1000
-texture "alt.dds"
+texture "alt.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 22
@@ -2573,7 +2573,7 @@ name "needle10000"
 loc 0 0 -0
 data 11
 needle10000
-texture "alt.dds"
+texture "alt.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 23

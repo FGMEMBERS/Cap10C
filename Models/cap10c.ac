@@ -55,7 +55,7 @@ OBJECT poly
 name "fuselage_1"
 data 12
 fuselage.001
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 2644
@@ -20327,7 +20327,7 @@ OBJECT poly
 name "joint-capot"
 data 11
 joint-capot
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 84
@@ -20715,7 +20715,7 @@ OBJECT poly
 name "poignees"
 data 12
 fuselage.002
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 448
@@ -23749,7 +23749,7 @@ OBJECT poly
 name "poigneext"
 data 12
 fuselage.003
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 464
@@ -27023,7 +27023,7 @@ OBJECT poly
 name "vis-capot"
 data 9
 vis-capot
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 1224
@@ -39248,7 +39248,7 @@ OBJECT poly
 name "poidsd_0"
 data 8
 poidsd_0
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 84
@@ -39780,7 +39780,7 @@ OBJECT poly
 name "poidsd_1"
 data 8
 poidsd_1
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 128
@@ -40663,7 +40663,7 @@ OBJECT poly
 name "poidsg_0"
 data 8
 poidsg_0
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 84
@@ -41170,7 +41170,7 @@ OBJECT poly
 name "poidsg_1"
 data 8
 poidsg_1
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 141
@@ -42141,7 +42141,7 @@ OBJECT poly
 name "support-canopy_1"
 data 18
 support-canopy.001
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 156
@@ -43377,7 +43377,7 @@ OBJECT poly
 name "support-canopy_2"
 data 18
 support-canopy.002
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 201
@@ -44610,7 +44610,7 @@ OBJECT poly
 name "FourcheRoulette"
 data 15
 FourcheRoulette
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 174
@@ -46180,7 +46180,7 @@ OBJECT poly
 name "RessortGouverne"
 data 15
 RessortGouverne
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 184
@@ -47734,7 +47734,7 @@ OBJECT poly
 name "SupportRoulette"
 data 15
 SupportRoulette
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 24
@@ -47908,7 +47908,7 @@ OBJECT poly
 name "ailerond"
 data 8
 ailerond
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 37
@@ -48133,7 +48133,7 @@ OBJECT poly
 name "ailerong"
 data 8
 ailerong
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 37
@@ -48358,7 +48358,7 @@ OBJECT poly
 name "ailes"
 data 5
 ailes
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 893
@@ -55709,7 +55709,7 @@ OBJECT poly
 name "amortisseurd"
 data 12
 amortisseurd
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 66
@@ -56393,7 +56393,7 @@ OBJECT poly
 name "amortisseurg"
 data 12
 amortisseurg
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 66
@@ -57077,7 +57077,7 @@ OBJECT poly
 name "axehelice"
 data 9
 axehelice
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 22
@@ -57299,7 +57299,7 @@ OBJECT poly
 name "carenaged"
 data 9
 carenaged
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 762
@@ -63391,7 +63391,7 @@ OBJECT poly
 name "carenageg"
 data 9
 carenageg
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 762
@@ -69483,7 +69483,7 @@ OBJECT poly
 name "cone"
 data 4
 cone
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 258
@@ -71703,7 +71703,7 @@ OBJECT poly
 name "derive"
 data 6
 derive
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 100
@@ -72545,7 +72545,7 @@ OBJECT poly
 name "directiontrim"
 data 13
 directiontrim
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 12
@@ -72657,7 +72657,7 @@ OBJECT poly
 name "echappements"
 data 12
 echappements
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 100
@@ -73202,7 +73202,7 @@ OBJECT poly
 name "helice"
 data 6
 helice
-texture "helice2.dds"
+texture "helice2.png"
 texrep 1 1
 crease 30.000000
 numvert 402
@@ -78174,7 +78174,7 @@ OBJECT poly
 name "helice-ge-tourn"
 data 15
 helice-ge-tourn
-texture "helice.dds"
+texture "helice.png"
 texrep 1 1
 crease 30.000000
 numvert 21
@@ -78277,7 +78277,7 @@ OBJECT poly
 name "jambed"
 data 6
 jambed
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 64
@@ -78575,7 +78575,7 @@ OBJECT poly
 name "jambeg"
 data 6
 jambeg
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 64
@@ -78873,7 +78873,7 @@ OBJECT poly
 name "join"
 data 4
 join
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 45
@@ -79152,7 +79152,7 @@ OBJECT poly
 name "palonniers"
 data 10
 palonniers
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 52
@@ -79655,7 +79655,7 @@ OBJECT poly
 name "pitot"
 data 5
 pitot
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 149
@@ -81254,7 +81254,7 @@ OBJECT poly
 name "plaque-ELT"
 data 10
 plaque-ELT
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 11
@@ -81341,7 +81341,7 @@ OBJECT poly
 name "profondeur"
 data 10
 profondeur
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 196
@@ -82973,7 +82973,7 @@ OBJECT poly
 name "protege"
 data 7
 protege
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 196
@@ -84507,7 +84507,7 @@ OBJECT poly
 name "roueA"
 data 5
 roueA
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 578
@@ -89247,7 +89247,7 @@ OBJECT poly
 name "roued"
 data 5
 roued
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 802
@@ -95819,7 +95819,7 @@ OBJECT poly
 name "roueg"
 data 5
 roueg
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 802
@@ -102391,7 +102391,7 @@ OBJECT poly
 name "trimprof"
 data 8
 trimprof
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 12
@@ -102488,7 +102488,7 @@ OBJECT poly
 name "tringle-rudderL"
 data 15
 tringle-rudderL
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 158
@@ -103984,7 +103984,7 @@ OBJECT poly
 name "tringle-rudderR"
 data 15
 tringle-rudderR
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 158
@@ -106795,7 +106795,7 @@ OBJECT poly
 name "voletd"
 data 6
 voletd
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 39
@@ -107010,7 +107010,7 @@ OBJECT poly
 name "voletg"
 data 6
 voletg
-texture "texture.dds"
+texture "texture.png"
 texrep 1 1
 crease 30.000000
 numvert 26

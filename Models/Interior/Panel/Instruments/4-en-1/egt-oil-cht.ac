@@ -8,7 +8,7 @@ name "Fond"
 loc 0 0 -0
 data 4
 Fond
-texture "egt-oil-cht.dds"
+texture "egt-oil-cht.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 33
@@ -244,7 +244,7 @@ name "aiguille-cht"
 loc 0 0 -0
 data 12
 aiguille-cht
-texture "egt-oil-cht.dds"
+texture "egt-oil-cht.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -305,7 +305,7 @@ name "aiguille-egt"
 loc 0 0 -0
 data 12
 aiguille-egt
-texture "egt-oil-cht.dds"
+texture "egt-oil-cht.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -366,7 +366,7 @@ name "aiguille-oilpsi"
 loc 0 0 -0
 data 15
 aiguille-oilpsi
-texture "egt-oil-cht.dds"
+texture "egt-oil-cht.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -427,7 +427,7 @@ name "aiguille-oilt"
 loc 0 0 -0
 data 13
 aiguille-oilt
-texture "egt-oil-cht.dds"
+texture "egt-oil-cht.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -1171,7 +1171,7 @@ name "branches"
 loc 0 0 -0
 data 8
 branches
-texture "egt-oil-cht.dds"
+texture "egt-oil-cht.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 72
@@ -1534,7 +1534,7 @@ name "centre"
 loc 0 0 -0
 data 6
 centre
-texture "egt-oil-cht.dds"
+texture "egt-oil-cht.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -2026,7 +2026,7 @@ name "contour"
 loc 0 0 -0
 data 7
 contour
-texture "egt-oil-cht.dds"
+texture "egt-oil-cht.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 128
