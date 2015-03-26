@@ -20,7 +20,7 @@ name "Ball"
 loc -0.314632 0.376314 0.120574
 data 4
 Ball
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 920
@@ -7467,7 +7467,7 @@ name "alarmedecrochage"
 loc 0 0 -0
 data 16
 alarmedecrochage
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -7528,7 +7528,7 @@ name "battery-lamp"
 loc 0 0 -0
 data 12
 battery-lamp
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -7589,7 +7589,7 @@ name "cache"
 loc 0 0 -0
 data 5
 cache
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -7611,7 +7611,7 @@ name "catA-text"
 loc 0 0 -0
 data 9
 catA-text
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -7633,7 +7633,7 @@ name "catU-text"
 loc 0 0 -0
 data 9
 catU-text
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -7655,7 +7655,7 @@ name "chauffage"
 loc 0 0 -0
 data 9
 chauffage
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 122
@@ -8698,7 +8698,7 @@ name "com1"
 loc 0 0 -0
 data 4
 com1
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -8720,7 +8720,7 @@ name "compas"
 loc 0 0 -0
 data 6
 compas
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 105
@@ -9657,7 +9657,7 @@ name "coulisse-chauffage"
 loc 0 0 -0
 data 18
 coulisse-chauffage
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 144
@@ -10642,7 +10642,7 @@ name "coulisse-frein"
 loc 0 0 -0
 data 14
 coulisse-frein
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 144
@@ -11627,7 +11627,7 @@ name "coulisse-gaz"
 loc 0 0 -0
 data 12
 coulisse-gaz
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 130
@@ -12632,7 +12632,7 @@ name "ecrous_borgnes"
 loc 0 0 -0
 data 14
 ecrous_borgnes
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 1156
@@ -22293,7 +22293,7 @@ name "front-low-fuel-lamp"
 loc 0 0 -0
 data 19
 front-low-fuel-lamp
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -22354,7 +22354,7 @@ name "front-tank-text"
 loc 0 0 -0
 data 15
 front-tank-text
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -22376,7 +22376,7 @@ name "fuel-pump-lamp"
 loc 0 0 -0
 data 14
 fuel-pump-lamp
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -22437,7 +22437,7 @@ name "fusibles"
 loc 0 0 -0
 data 8
 fusibles
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 5400
@@ -69032,7 +69032,7 @@ name "gps-com2"
 loc 0 0 -0
 data 8
 gps-com2
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -69054,7 +69054,7 @@ name "gps-text"
 loc 0 0 -0
 data 8
 gps-text
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -69076,7 +69076,7 @@ name "immat-text."
 loc 0 0 -0
 data 11
 immat-text.
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -69137,7 +69137,7 @@ name "led-jaune"
 loc 0 0 -0
 data 9
 led-jaune
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 369
@@ -72061,7 +72061,7 @@ name "manettegaz"
 loc 0 0 -0
 data 10
 manettegaz
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 122
@@ -73104,7 +73104,7 @@ name "manettemixture"
 loc 0 0 -0
 data 14
 manettemixture
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 143
@@ -74320,7 +74320,7 @@ name "manettepark"
 loc 0 0 -0
 data 11
 manettepark
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 77
@@ -75023,7 +75023,7 @@ name "mixture-text"
 loc 0 0 -0
 data 12
 mixture-text
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -75045,7 +75045,7 @@ name "oil-press-lamp"
 loc 0 0 -0
 data 14
 oil-press-lamp
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -75106,7 +75106,7 @@ name "panel"
 loc 0 0 -0
 data 5
 panel
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 1414
@@ -85708,7 +85708,7 @@ name "panel-light-knob"
 loc 0 0 -0
 data 16
 panel-light-knob
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -86200,7 +86200,7 @@ name "plancher-propre"
 loc 0 0 -0
 data 15
 plancher-propre
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -86222,7 +86222,7 @@ name "radio-fan-text"
 loc 0 0 -0
 data 14
 radio-fan-text
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -86244,7 +86244,7 @@ name "rear-low-fuel-lamp"
 loc 0 0 -0
 data 18
 rear-low-fuel-lamp
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -86305,7 +86305,7 @@ name "rear-tank-text"
 loc 0 0 -0
 data 14
 rear-tank-text
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -86327,7 +86327,7 @@ name "selecteurcarburant"
 loc 0 0 -0
 data 18
 selecteurcarburant
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 57
@@ -86773,7 +86773,7 @@ name "stall-text"
 loc 0 0 -0
 data 10
 stall-text
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -86795,7 +86795,7 @@ name "starter"
 loc 0 0 -0
 data 7
 starter
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 33
@@ -87047,7 +87047,7 @@ name "supportalarme"
 loc 0 0 -0
 data 13
 supportalarme
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -87108,7 +87108,7 @@ name "supportwarning"
 loc 0 0 -0
 data 14
 supportwarning
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 80
@@ -87619,7 +87619,7 @@ name "test-lamp"
 loc 0 0 -0
 data 9
 test-lamp
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -87680,7 +87680,7 @@ name "tole"
 loc 0 0 -0
 data 4
 tole
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 24
@@ -87841,7 +87841,7 @@ name "vis-panel"
 loc 0 0 -0
 data 9
 vis-panel
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 1875
@@ -107507,7 +107507,7 @@ name "warning-light-knob"
 loc 0 0 -0
 data 18
 warning-light-knob
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -107999,7 +107999,7 @@ name "warning.002"
 loc 0 0 -0
 data 11
 warning.002
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -108060,7 +108060,7 @@ name "warning.003"
 loc 0 0 -0
 data 11
 warning.003
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -108121,7 +108121,7 @@ name "warning.004"
 loc 0 0 -0
 data 11
 warning.004
-texture "panel.png"
+texture "panel.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8

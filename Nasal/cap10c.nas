@@ -4,21 +4,6 @@
 var config_dlg = gui.Dialog.new("/sim/gui/dialogs/config/dialog", getprop("/sim/aircraft-dir")~"/Dialogs/config.xml");
 
 ##########################################
-# Flaps overwrite
-##########################################
-
-controls.flapsDown = func(step) {
-    if(step == 0) return;
-    if(props.globals.getNode("/sim/flaps") != nil) {
-        controls.stepProps("/controls/flight/flaps-cmd", "/sim/flaps", step);
-        return;
-    }
-    # Hard-coded flaps movement in 3 equal steps:
-    var val = 0.3333334 * step + getprop("/controls/flight/flaps-cmd");
-    setprop("/controls/flight/flaps-cmd", val > 1 ? 1 : val < 0 ? 0 : val);
-}
-
-##########################################
 # Horameter / Chrono
 ##########################################
 
@@ -106,9 +91,6 @@ var set_levers = func(type,num,min,max){
 # Ground Detection
 ##########################################
 
-# Do terrain modelling ourselves.
-setprop("sim/fdm/surface/override-level", 1);
-
 var terrain_survol = func {
   var lat = getprop("/position/latitude-deg");
   var lon = getprop("/position/longitude-deg");
@@ -145,28 +127,6 @@ var terrain_survol = func {
   }
 #  settimer(terrain_survol, 0);
 }
-
-##############################################
-#########       KY97A FORMAT       ###########
-##############################################
-
-var formatCommSelectedFreq = func{
-  var selectedFreq = int(getprop("instrumentation/comm[0]/frequencies/selected-mhz")*100);
-  setprop("instrumentation/comm[0]/frequencies/selected-mhz-fmt", selectedFreq/100);
-}
-
-var formatCommStandbyFreq = func{
-  var standbyFreq = int(getprop("instrumentation/comm[0]/frequencies/standby-mhz")*100);
-  setprop("instrumentation/comm[0]/frequencies/standby-mhz-fmt", standbyFreq/100);
-}
-
-setlistener("instrumentation/comm[0]/frequencies/selected-mhz", func(){
-  formatCommSelectedFreq();
-});
-
-setlistener("instrumentation/comm[0]/frequencies/standby-mhz", func(){
-  formatCommStandbyFreq();
-});
 
 ##############################################
 ######### AUTOSTART / AUTOSHUTDOWN ###########
@@ -221,7 +181,7 @@ var Shutdown = func{
   setprop("/instrumentation/adf[0]/volume",0);
   setprop("/instrumentation/adf[0]/volume-norm",0);
   setprop("controls/electric/battery-switch",0);
-  setprop("controls/fuel/tank/boost-pump", 0);
+#  setprop("controls/fuel/tank/boost-pump", 0);
   setprop("controls/switches/ai-switch",0);
   setprop("controls/switches/hi-switch",0);
   setprop("controls/lighting/strobe-lights", 0);
@@ -270,11 +230,6 @@ global_system = func{
   }else{
     setprop("/instrumentation/heading-indicator/spin",0);
   }
-
-  if(getprop("/systems/electrical/volts") > 12){
-    controls.stepProps("/controls/flight/flaps", "/sim/flaps", getprop("/controls/flight/flaps-cmd"));
-  }
-
 
   mouse_accel();
   terrain_survol();
@@ -327,9 +282,6 @@ setlistener("/sim/signals/fdm-initialized", func{
     props.globals.initNode("sim/rendering/rembrandt/enabled", 0, "BOOL");
     print("Rembrandt no available");
   }
-
-  formatCommSelectedFreq();
-  formatCommStandbyFreq();
 
 });
 

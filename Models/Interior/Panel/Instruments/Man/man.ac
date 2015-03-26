@@ -19,7 +19,7 @@ name "Fond"
 loc 0 0 -0
 data 4
 Fond
-texture "man.png"
+texture "man.dds"
 texrep 1.000000 1.000000
 crease 45.000001
 numvert 97
@@ -751,7 +751,7 @@ name "NeedleF"
 loc 0 0 -0
 data 7
 NeedleF
-texture "man.png"
+texture "man.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 112
@@ -1465,7 +1465,7 @@ name "NeedleM"
 loc 0 0 -0
 data 7
 NeedleM
-texture "man.png"
+texture "man.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 112

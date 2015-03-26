@@ -42,7 +42,7 @@
     <type>rotate</type>
     <object-name>Switch-masterg</object-name>
     <property>controls/electric/battery-switch-pos</property>
-    <factor> -28 </factor>
+    <factor> -20 </factor>
     <axis>
       <x> 0 </x>
       <y> 1 </y>

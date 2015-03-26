@@ -56,8 +56,8 @@
   <animation>
     <type>rotate</type>
     <object-name>Switch</object-name>
-    <property>controls/switches/avionic-switch-pos</property>
-    <factor> -60 </factor>
+    <property>controls/switches/hi-switch-pos</property>
+    <factor> -20 </factor>
     <axis>
       <x> 0 </x>
       <y> 1 </y>
@@ -65,7 +65,7 @@
     </axis>
   </animation>
 
-  <animation>
+  <!--animation>
     <type>pick</type>
     <visible>true</visible>
     <object-name>Switch</object-name>
@@ -74,13 +74,13 @@
       <repeatable>false</repeatable>
       <binding>
         <command>property-toggle</command>
-        <property>controls/switches/avionic-switch</property>
+        <property>controls/switches/hi-switch</property>
       </binding>
       <binding>
         <command>property-toggle</command>
         <property>sim/model/click</property>
       </binding>
     </action>
-  </animation>
+  </animation-->
 
 </PropertyList>

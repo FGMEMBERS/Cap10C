@@ -8,7 +8,7 @@ name "manched"
 loc 0 0 -0
 data 7
 manched
-texture "handle.png"
+texture "handle.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 1653
@@ -14846,7 +14846,7 @@ name "mancheg"
 loc 0 0 0.567482
 data 7
 mancheg
-texture "handle.png"
+texture "handle.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 1653
@@ -29684,7 +29684,7 @@ name "support1d"
 loc 0 0 -0
 data 9
 support1d
-texture "handle.png"
+texture "handle.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -30176,7 +30176,7 @@ name "support1g"
 loc 0 0 -0
 data 9
 support1g
-texture "handle.png"
+texture "handle.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -30668,7 +30668,7 @@ name "support2d"
 loc 0 0 -0
 data 9
 support2d
-texture "handle.png"
+texture "handle.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -31160,7 +31160,7 @@ name "support2g"
 loc 0 0 -0
 data 9
 support2g
-texture "handle.png"
+texture "handle.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -31652,7 +31652,7 @@ name "support3d"
 loc 0 0 -0
 data 9
 support3d
-texture "handle.png"
+texture "handle.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -32144,7 +32144,7 @@ name "support3g"
 loc 0 0 -0
 data 9
 support3g
-texture "handle.png"
+texture "handle.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -32636,7 +32636,7 @@ name "support4d"
 loc 0 0 -0
 data 9
 support4d
-texture "handle.png"
+texture "handle.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -33128,7 +33128,7 @@ name "support4g"
 loc 0 0 -0
 data 9
 support4g
-texture "handle.png"
+texture "handle.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65

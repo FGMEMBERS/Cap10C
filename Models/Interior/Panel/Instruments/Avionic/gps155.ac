@@ -12,7 +12,7 @@ OBJECT poly
 name "molette-grosse"
 data 8
 Mesh.002
-texture "garmin.png"
+texture "garmin.dds"
 texrep 1 1
 crease 45.000000
 numvert 24
@@ -190,7 +190,7 @@ OBJECT poly
 name "molette-petite"
 data 8
 Mesh.003
-texture "garmin.png"
+texture "garmin.dds"
 texrep 1 1
 crease 45.000000
 numvert 24
@@ -371,7 +371,7 @@ OBJECT poly
 name "molette-onoff"
 data 4
 Mesh
-texture "garmin.png"
+texture "garmin.dds"
 texrep 1 1
 crease 45.000000
 numvert 24
@@ -549,7 +549,7 @@ OBJECT poly
 name "box"
 data 8
 Mesh.004
-texture "garmin.png"
+texture "garmin.dds"
 texrep 1 1
 crease 45.000000
 numvert 22
@@ -730,7 +730,7 @@ OBJECT poly
 name "face-on"
 data 5
 Plane
-texture "garmin.png"
+texture "garmin.dds"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -751,7 +751,7 @@ OBJECT poly
 name "gma340.Chassis"
 data 8
 Mesh.001
-texture "garmin.png"
+texture "garmin.dds"
 texrep 1 1
 crease 45.000000
 numvert 16

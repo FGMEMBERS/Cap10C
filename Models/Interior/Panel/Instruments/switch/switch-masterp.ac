@@ -8,7 +8,7 @@ OBJECT poly
 name "Switch-masterp"
 data 6
 on-off
-texture "switch_master.png"
+texture "switch_master.dds"
 texrep 1 1
 crease 30.000000
 numvert 50
@@ -402,7 +402,7 @@ OBJECT poly
 name "support.001"
 data 8
 Cube.001
-texture "switch_master.png"
+texture "switch_master.dds"
 texrep 1 1
 crease 30.000000
 numvert 8

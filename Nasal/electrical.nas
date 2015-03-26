@@ -280,6 +280,18 @@ var electrical_bus = func(bus_volts){
         load += 0.01;
     }
 
+    OutPuts.getNode("starter",1).setValue(starter_voltsL);
+
+    return load;
+}
+
+############################################################################
+############# Mesure des charges du bus avionique (Instruments) ############
+############################################################################
+
+var avionics_bus = func(bus_volts) {
+    #load = 0.0;
+
     if (props.globals.getNode("/controls/lighting/instrument-lights").getBoolValue()){
         var instr_norm = props.globals.getNode("/controls/lighting/instruments-norm").getValue();
         var v = instr_norm * bus_volts;
@@ -298,81 +310,49 @@ var electrical_bus = func(bus_volts){
         OutPuts.getNode("panel-lights",1).setValue(0.0);
     }
 
-    OutPuts.getNode("starter",1).setValue(starter_voltsL);
-
-    return load;
-}
-
-############################################################################
-############# Mesure des charges du bus avionique (Instruments) ############
-############################################################################
-
-var avionics_bus = func(bus_volts) {
-    #load = 0.0;
-
-    if(props.globals.getNode("/instrumentation/comm/serviceable").getBoolValue() and 
-       props.globals.getNode("/instrumentation/comm/power-btn").getBoolValue() and 
-       props.globals.getNode("/sim/failure-manager/instrumentation/comm/serviceable").getBoolValue() and
-       props.globals.getNode("/controls/switches/avionic-switch",1).getBoolValue())
-    {
+    if (props.globals.getNode("/instrumentation/comm/serviceable").getBoolValue() and props.globals.getNode("/sim/failure-manager/instrumentation/comm/serviceable").getBoolValue()){
         OutPuts.getNode("comm",1).setValue(bus_volts);
         load += 0.00015;
     } else {
         OutPuts.getNode("comm",1).setValue(0.0);
     }
+#
+#    if (props.globals.getNode("/instrumentation/kt76a/mode").getValue() > 0 and props.globals.getNode("/controls/switches/transponder").getBoolValue()){
+#        OutPuts.getNode("transponder",1).setValue(bus_volts);
+#        load += 0.00015;
+#    } else {
+#        OutPuts.getNode("transponder",1).setValue(0.0);
+#    }
 
-    if(props.globals.getNode("/controls/switches/avionic-switch",1).getBoolValue())
-    {
-        OutPuts.getNode("gps",1).setValue(bus_volts);
-        load += 0.00015;
-    } else {
-        OutPuts.getNode("gps",1).setValue(0.0);
-    }
-
-    if (props.globals.getNode("/controls/switches/avionic-switch").getBoolValue()){
-        OutPuts.getNode("transponder",1).setValue(bus_volts);
-        load += 0.00015;
-    } else {
-        OutPuts.getNode("transponder",1).setValue(0.0);
-    }
-
-    if(props.globals.getNode("/instrumentation/nav/serviceable").getBoolValue() and
-       props.globals.getNode("/controls/switches/avionic-switch",1).getBoolValue())
-    {
+    if (props.globals.getNode("/instrumentation/nav/serviceable").getBoolValue() ){
         OutPuts.getNode("nav",1).setValue(bus_volts);
         load += 0.00015;
     } else {
         OutPuts.getNode("nav",1).setValue(0.0);
     }
    
-    if(props.globals.getNode("/instrumentation/nav[1]/serviceable").getBoolValue() and
-       props.globals.getNode("/controls/switches/avionic-switch",1).getBoolValue())
-    {
+   if (props.globals.getNode("/instrumentation/nav[1]/serviceable").getBoolValue() ){
         OutPuts.getNode("nav[1]",1).setValue(bus_volts);
         load += 0.000015;
     } else {
         OutPuts.getNode("nav[1]",1).setValue(0.0);
     }   
    
-    if(props.globals.getNode("/instrumentation/adf/serviceable").getBoolValue() and
-       props.globals.getNode("/controls/switches/avionic-switch",1).getBoolValue())
-    {
+   if (props.globals.getNode("/instrumentation/adf/serviceable").getBoolValue() ){
         OutPuts.getNode("adf",1).setValue(bus_volts);
         load += 0.000015;
     } else {
         OutPuts.getNode("adf",1).setValue(0.0);
     }
    
-    if(props.globals.getNode("/instrumentation/turn-indicator/serviceable").getBoolValue() and
-       props.globals.getNode("/controls/switches/avionic-switch",1).getBoolValue())
-    {
+   if (props.globals.getNode("/instrumentation/turn-indicator/serviceable").getBoolValue() ){
         OutPuts.getNode("turn-coordinator",1).setValue(bus_volts);
         load += 0.000015;
     } else {
         OutPuts.getNode("turn-coordinator",1).setValue(0.0);
     }
 
-    return load;    
+    return load;
 }
 
 var update_electrical = func {

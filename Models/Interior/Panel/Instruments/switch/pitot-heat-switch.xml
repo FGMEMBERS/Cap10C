@@ -57,7 +57,7 @@
     <type>rotate</type>
     <object-name>Switch</object-name>
     <property>controls/anti-ice/pitot-heat</property>
-    <factor> -28 </factor>
+    <factor> -20 </factor>
     <axis>
       <x> 0 </x>
       <y> 1 </y>
@@ -65,7 +65,7 @@
     </axis>
   </animation>
 
-  <!--<animation>
+<animation>
     <type>pick</type>
     <visible>true</visible>
     <object-name>Switch</object-name>
@@ -81,6 +81,6 @@
         <property>sim/model/click</property>
       </binding>
     </action>
-  </animation>-->
+  </animation>
 
 </PropertyList>

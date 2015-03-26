@@ -79,7 +79,7 @@
   <animation>
     <type>shader</type>
     <shader>chrome</shader>
-    <texture>Aircraft/Cap10C/Models/Effects/glass_shader.png</texture>
+    <texture>Aircraft/Cap10C/Models/Effects/glass_shader.dds</texture>
     <object-name>vitre</object-name>
   </animation>
 
@@ -324,11 +324,11 @@
     </offsets>
   </model>
 
-  <!-- GTX320A -->
+  <!-- KT 76A -->
   <model>
-    <path>Aircraft/Cap10C/Models/Interior/Panel/Instruments/Avionic/gtx320a.xml</path>
+    <path>Aircraft/Cap10C/Models/Interior/Panel/Instruments/Avionic/KT76A.xml</path>
     <offsets>
-      <x-m> -0.289 </x-m>
+      <x-m> -0.294 </x-m>
       <y-m>  0.150 </y-m>
       <z-m>  0.189 </z-m>
     </offsets>
@@ -336,7 +336,7 @@
 
   <!-- KN 53 -->
   <model>
-    <path>Aircraft/Cap10C/Models/Interior/Panel/Instruments/Avionic/ky97a.xml</path>
+    <path>Aircraft/Cap10C/Models/Interior/Panel/Instruments/Avionic/kn53.xml</path>
     <offsets>
       <x-m> -0.293 </x-m>
       <y-m>  0.153 </y-m>
@@ -714,7 +714,7 @@
      </axis>   
   </animation>
 
-  <!--<animation>
+  <animation>
     <type>translate</type>
     <object-name>manettepark</object-name>
     <property>controls/gear/brake-left</property>
@@ -744,7 +744,7 @@
       <y> 0</y>
       <z> 0</z>
     </axis>   
-  </animation>-->
+  </animation>
 
   <animation>
     <type>pick</type>

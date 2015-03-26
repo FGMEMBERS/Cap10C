@@ -8,7 +8,7 @@ name "Fond"
 loc 0 0 -0
 data 4
 Fond
-texture "variometre.png"
+texture "variometre.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 33
@@ -244,7 +244,7 @@ name "aiguille"
 loc 0 0 -0
 data 8
 aiguille
-texture "variometre.png"
+texture "variometre.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 60
@@ -1304,7 +1304,7 @@ name "contour"
 loc 0 0 -0
 data 7
 contour
-texture "variometre.png"
+texture "variometre.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 142

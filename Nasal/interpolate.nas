@@ -14,14 +14,6 @@ setlistener("/controls/electric/battery-switch", func(v) {
   }
 });
 
-setlistener("/controls/switches/avionic-switch", func(v) {
-  if(v.getValue()){
-    interpolate("/controls/switches/avionic-switch-pos", 1, 0.25);
-  }else{
-    interpolate("/controls/switches/avionic-switch-pos", 0, 0.25);
-  }
-});
-
 setlistener("/controls/switches/ai-switch", func(v) {
   if(v.getValue()){
     interpolate("/controls/switches/ai-switch-pos", 1, 0.25);
@@ -120,8 +112,4 @@ setlistener("/controls/lighting/warning-test", func(v) {
 
 setlistener("/controls/engines/engine/magnetos", func(v) {
     interpolate("/controls/engines/engine/magnetos-pos", v.getValue(), 0.25);
-});
-
-setlistener("/controls/flight/flaps-cmd", func(v) {
-    interpolate("/controls/flight/flaps-cmd-pos", v.getValue(), 0.25);
 });

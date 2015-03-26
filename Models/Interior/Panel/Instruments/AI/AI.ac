@@ -50,7 +50,7 @@ name "AdjustKnob"
 loc 0 0 -0
 data 10
 AdjustKnob
-texture "AI1.rgb"
+texture "AI1.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 65
@@ -542,7 +542,7 @@ name "Aircraft"
 loc 0 0 -0
 data 8
 Aircraft
-texture "AI1.rgb"
+texture "AI1.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 109
@@ -1274,7 +1274,7 @@ name "Bracket"
 loc 0 0 -0
 data 7
 Bracket
-texture "AI1.rgb"
+texture "AI1.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 12
@@ -1367,7 +1367,7 @@ name "CageKnob"
 loc 0 0 -0
 data 8
 CageKnob
-texture "AI1.rgb"
+texture "AI1.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 113
@@ -2259,7 +2259,7 @@ name "CagedIndicator"
 loc 0 0 -0
 data 14
 CagedIndicator
-texture "AI1.rgb"
+texture "AI1.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8
@@ -2309,7 +2309,7 @@ name "Case"
 loc 0 0 -0
 data 4
 Case
-texture "AI1.rgb"
+texture "AI1.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 96
@@ -2864,7 +2864,7 @@ name "Pitch"
 loc 0 0 -0
 data 5
 Pitch
-texture "AI1.rgb"
+texture "AI1.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 128
@@ -3675,7 +3675,7 @@ name "Roll"
 loc 0 0 -0
 data 4
 Roll
-texture "AI1.rgb"
+texture "AI1.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 97
@@ -4203,7 +4203,7 @@ name "RollReference_1"
 loc 0 0 -0
 data 15
 RollReference_1
-texture "AI1.rgb"
+texture "AI1.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 4
@@ -4225,7 +4225,7 @@ name "RollReference_0"
 loc 0 0 -0
 data 15
 RollReference_0
-texture "AI1.rgb"
+texture "AI1.dds"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 8

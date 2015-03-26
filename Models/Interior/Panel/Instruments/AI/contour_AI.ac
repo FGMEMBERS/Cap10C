@@ -10,7 +10,7 @@ OBJECT poly
 name "contour_AI_0"
 data 8
 Mesh.001
-texture "contour_Ai.png"
+texture "contour_Ai.dds"
 texrep 1 1
 crease 30.000000
 numvert 133

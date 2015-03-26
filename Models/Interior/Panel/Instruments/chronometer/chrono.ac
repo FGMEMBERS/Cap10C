@@ -7,7 +7,7 @@ OBJECT poly
 name "face"
 data 4
 face
-texture "chrono.png"
+texture "chrono.dds"
 texrep 1 1
 crease 30.000000
 numvert 136
@@ -884,7 +884,7 @@ OBJECT poly
 name "on-off.button"
 data 13
 on-off.button
-texture "chrono.png"
+texture "chrono.dds"
 texrep 1 1
 crease 30.000000
 numvert 64
@@ -1362,7 +1362,7 @@ OBJECT poly
 name "reset.button"
 data 12
 reset.button
-texture "chrono.png"
+texture "chrono.dds"
 texrep 1 1
 crease 30.000000
 numvert 64
@@ -1840,7 +1840,7 @@ OBJECT poly
 name "start.button"
 data 12
 start.button
-texture "chrono.png"
+texture "chrono.dds"
 texrep 1 1
 crease 30.000000
 numvert 64
@@ -2318,7 +2318,7 @@ OBJECT poly
 name "stop.button"
 data 11
 stop.button
-texture "chrono.png"
+texture "chrono.dds"
 texrep 1 1
 crease 30.000000
 numvert 64

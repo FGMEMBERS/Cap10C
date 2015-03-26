@@ -14,8 +14,14 @@
   <animation>
     <type>rotate</type>
     <object-name>Switch</object-name>
+    <condition>
+      <greater-than-equals>
+        <property>systems/electrical/volts</property>
+        <value>1</value>
+      </greater-than-equals>
+    </condition>
     <repeatable>false</repeatable>
-    <property>controls/flight/flaps-cmd-pos</property>
+    <property>controls/flight/flaps</property>
     <factor> 45 </factor>
     <axis>
       <x> 0 </x>
@@ -44,22 +50,6 @@
     <visible>true</visible>
     <object-name>Switch</object-name>
     <action>
-      <button>0</button>
-      <repeatable>false</repeatable>
-      <binding>
-        <command>nasal</command>
-        <script>controls.flapsDown(1)</script>
-      </binding>
-    </action>
-    <action>
-      <button>1</button>
-      <repeatable>false</repeatable>
-      <binding>
-        <command>nasal</command>
-        <script>controls.flapsDown(-1)</script>
-      </binding>
-    </action>
-    <action>
       <button>4</button>
       <repeatable>false</repeatable>
       <binding>
@@ -67,6 +57,12 @@
         <script>controls.flapsDown(1)</script>
       </binding>
     </action>
+  </animation> 
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>Switch</object-name>
     <action>
       <button>3</button>
       <repeatable>false</repeatable>
@@ -75,39 +71,51 @@
         <script>controls.flapsDown(-1)</script>
       </binding>
     </action>
-  </animation> 
+  </animation>
 
-  <animation>
+<animation>
     <type>material</type>
     <object-name>lampoff</object-name>
     <condition>
-      <greater-than-equals>
-        <property>controls/flight/flaps</property>
-        <value>0.25</value>
-      </greater-than-equals>
+      <and>
+        <greater-than-equals>
+          <property>systems/electrical/volts</property>
+          <value>1</value>
+        </greater-than-equals>
+        <greater-than-equals>
+          <property>controls/flight/flaps</property>
+          <value>0.25</value>
+        </greater-than-equals>
+      </and>
     </condition>
     <emission>
       <red>0.2</red>
       <green>15</green>
       <blue>0.0</blue>
-      <factor-prop>systems/electrical/volts</factor-prop>
+      <factor-prop>controls/flight/flaps</factor-prop>
     </emission>
   </animation>
 
-  <animation>
+<animation>
     <type>material</type>
     <object-name>lamp1off</object-name>
     <condition>
-      <greater-than-equals>
-        <property>controls/flight/flaps</property>
-        <value>1</value>
-      </greater-than-equals>
+      <and>
+        <greater-than-equals>
+          <property>systems/electrical/volts</property>
+          <value>1</value>
+        </greater-than-equals>
+        <greater-than-equals>
+          <property>controls/flight/flaps</property>
+          <value>1</value>
+        </greater-than-equals>
+      </and>
     </condition>
     <emission>
       <red>0.2</red>
       <green>4</green>
       <blue>0.0</blue>
-      <factor-prop>systems/electrical/volts</factor-prop>
+      <factor-prop>controls/flight/flaps</factor-prop>
     </emission>
   </animation>
 
