@@ -57,7 +57,7 @@
       </generic>
     </multiplay>
 
-    <menubar include="Dialogs/cap10C-copilot-menu.xml"/>
+    <menubar include="Dialogs/cap10c-copilot-menu.xml"/>
 
     <view n="100">
       <name>Tail Camera View</name>
