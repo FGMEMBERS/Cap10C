@@ -53,11 +53,11 @@
         <float n="15" alias="/controls/flight/rudder"/>
         <float n="16" alias="/controls/flight/aileron"/>
 
-        <string n="0" type="string"></string> <!-- RESERVED FOR DUAL CONTROL (Analog Switch - TDM)--> 
+        <string n="0" type="string"></string> <!-- RESERVED FOR DUAL CONTROL (Analog Switch - TDM)-->
       </generic>
     </multiplay>
 
-    <menubar include="Dialogs/Cap10C-copilot-menu.xml"/>
+    <menubar include="Dialogs/cap10c-copilot-menu.xml"/>
 
     <view n="100">
       <name>Tail Camera View</name>
@@ -134,7 +134,7 @@
         <roll-deg type="double">0</roll-deg>
       </eye>
       <target>
-        <latitude-deg type="double">0</latitude-deg>  
+        <latitude-deg type="double">0</latitude-deg>
         <longitude-deg type="double">0</longitude-deg>
         <altitude-ft type="double">0</altitude-ft>
         <heading-deg type="double">0</heading-deg>
@@ -166,4 +166,3 @@
   </nasal>
 
 </PropertyList>
-
