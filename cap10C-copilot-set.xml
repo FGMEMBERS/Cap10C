@@ -36,6 +36,8 @@
       <path archive="y">Aircraft/Cap10C/Models/Cap10C-copilot.xml</path>
     </model>
 
+    <variant-of>cap10c</variant-of>
+
     <multiplay>
       <chat_display>1</chat_display>
       <generic>
